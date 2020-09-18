@@ -194,7 +194,7 @@ class Snake_Ladder:
         print("\n" + pl_name + " climbed from ", end=" ")
         print(str(old_val) + " to " + str(curr_val))
 
-    def saanp_seedhi(self, pl_name, curr_val, dice_val):
+    def Snake_Ladder(self, pl_name, curr_val, dice_val):
         time.sleep(self.DELAY_IN_ACTIONS)
         old_val = curr_val
         curr_val = curr_val + dice_val
@@ -254,7 +254,7 @@ class Start(Snake_Ladder):
                 dice_val = self.roll_the_dice()
                 time.sleep(self.DELAY_IN_ACTIONS)
                 print(pl_1 + " moving....")
-                pl_1_cur_pos = self.saanp_seedhi(pl_1, pl_1_cur_pos, dice_val)
+                pl_1_cur_pos = self.Snake_Ladder(pl_1, pl_1_cur_pos, dice_val)
 
                 self.Winner(pl_1, pl_1_cur_pos)
 
@@ -263,7 +263,7 @@ class Start(Snake_Ladder):
                 dice_val = self.roll_the_dice()
                 time.sleep(self.DELAY_IN_ACTIONS)
                 print(pl_2 + " moving....")
-                pl_2_cur_pos = self.saanp_seedhi(pl_2, pl_2_cur_pos, dice_val)
+                pl_2_cur_pos = self.Snake_Ladder(pl_2, pl_2_cur_pos, dice_val)
 
                 self.Winner(pl_2, pl_2_cur_pos)
 
@@ -274,7 +274,7 @@ class Start(Snake_Ladder):
                 dice_val = self.roll_the_dice()
                 time.sleep(self.DELAY_IN_ACTIONS)
                 print(pl_1 + " moving....")
-                pl_1_cur_pos = self.saanp_seedhi(pl_1, pl_1_cur_pos, dice_val)
+                pl_1_cur_pos = self.Snake_Ladder(pl_1, pl_1_cur_pos, dice_val)
 
                 self.Winner(pl_1, pl_1_cur_pos)
 
@@ -283,7 +283,7 @@ class Start(Snake_Ladder):
                 dice_val = self.roll_the_dice()
                 time.sleep(self.DELAY_IN_ACTIONS)
                 print(pl_2 + " moving....")
-                pl_2_cur_pos = self.saanp_seedhi(pl_2, pl_2_cur_pos, dice_val)
+                pl_2_cur_pos = self.Snake_Ladder(pl_2, pl_2_cur_pos, dice_val)
 
                 self.Winner(pl_2, pl_2_cur_pos)
 
@@ -292,7 +292,7 @@ class Start(Snake_Ladder):
                 dice_val = self.roll_the_dice()
                 time.sleep(self.DELAY_IN_ACTIONS)
                 print(pl_3 + " moving....")
-                pl_3_cur_pos = self.saanp_seedhi(pl_3, pl_3_cur_pos, dice_val)
+                pl_3_cur_pos = self.Snake_Ladder(pl_3, pl_3_cur_pos, dice_val)
 
                 self.Winner(pl_3, pl_3_cur_pos)
 
@@ -301,7 +301,7 @@ class Start(Snake_Ladder):
                 dice_val = self.roll_the_dice()
                 time.sleep(self.DELAY_IN_ACTIONS)
                 print(pl_4 + " moving....")
-                pl_4_cur_pos = self.saanp_seedhi(pl_4, pl_4_cur_pos, dice_val)
+                pl_4_cur_pos = self.Snake_Ladder(pl_4, pl_4_cur_pos, dice_val)
 
                 self.Winner(pl_4, pl_4_cur_pos)
 

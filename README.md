@@ -8,11 +8,16 @@ Technologies Used:
 Python 3.8
 
 How to play:
-Each player puts their counter on the space that says 'start here'.
-Take it in turns to roll the dice. ...
-If your counter lands at the bottom of a ladder, you can move up to the top of the ladder.
-If your counter lands on the head of a snake, you must slide down to the bottom of the snake.
-
+Rules:
+        1. At the start both the players are at starting position i.e. 0.
+           Roll the dice turn by turn.
+           Move to the number of spaces shown on the dice.
+        2. If you reach at the bottom of a ladder,
+           you can climb up to the top of the ladder.
+        3. If you reach on the head of a snake,
+           you must go down to the bottom of the snake.
+        4. The first to reach the FINAL position is the winner.
+        5. Press enter to roll the dice.
 
 Motivation:
 	Snake-Ladder & Ludo is one of most comman and popular game of childhood.Its 
