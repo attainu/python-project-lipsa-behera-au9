@@ -4,9 +4,7 @@ import sys
 
 
 class Snake_Ladder:
-
     def __init__(self):
-
         self.DELAY_IN_ACTIONS = 1
         self.DESTINATION = 100
         self.DICE_FACE = 6
@@ -115,14 +113,11 @@ class Snake_Ladder:
                         print("\n The end should be greater than Start")
                         flag = 1
                         i -= 1
-
                     elif start in self.ladders.keys():
                         print("\n Ladder already present")
                         flag = 1
                         i -= 1
-
                     for k, v in self.snakes.items():
-
                         if k == end and v == start:
                             print("\nSnake present(will create infinite loop)")
                             print("\nPlease Enter valid Ladder")
@@ -169,7 +164,7 @@ class Snake_Ladder:
     def welcome_to_the_game(self):
 
         message = """
-        Welcome to Saanp Seedhi.
+        Welcome to Snake Ladder.
         Rules:
         1. At the start both the players are at starting position i.e. 0.
            Roll the dice turn by turn.
@@ -234,7 +229,7 @@ class Snake_Ladder:
             sys.exit(1)
 
 
-class Start(Saanp_Seedhi):
+class Start(Snake_Ladder):
 
     def start_the_game(self):
         time.sleep(self.DELAY_IN_ACTIONS)
